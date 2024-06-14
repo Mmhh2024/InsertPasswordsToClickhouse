@@ -16,13 +16,7 @@ public class InsertpasswordApplication {
 	public static void main(String[] args) {
 
 	  final Logger logger = LoggerFactory.getLogger(InsertpasswordApplication.class);
-      /* @Value("${path.in}")
-	  String repin;
-	  @Value("${path.out}")
-	  String repout ;
-	  final  File repertoirein = new File(repin); 
-	  final  File repertoireout = new File(repout); 
-	  */
+      
 	  final  File repertoirein = new File("C:\\DATAPASSWORD\\IN\\"); 
 	  final  File repertoireout = new File("C:\\DATAPASSWORD\\TRAITE\\"); 
          
