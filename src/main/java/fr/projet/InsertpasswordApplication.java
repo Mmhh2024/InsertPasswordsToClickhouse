@@ -54,7 +54,7 @@ public class InsertpasswordApplication {
 								buffer = scanner.nextLine();
 								batchIndex++;
 								
-								bufferTab = buffer.split(";");
+								bufferTab = buffer.split(":");
 								if (bufferTab.length > 0){
 										statement.setString(1, bufferTab[0]);	
 										
@@ -85,4 +85,5 @@ public class InsertpasswordApplication {
 		} 
 		
 }
+
 }
